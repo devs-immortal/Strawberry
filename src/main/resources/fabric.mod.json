@@ -1,29 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "strawberry",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Strawberry",
+  "description": "TODO",
   "authors": [
-    "Me!"
+    "Immortal Devs - Parent Organization",
+    "Azazelthedemonlord - Lead designer / Local NSFW artist",
+    "24Chrome - Lead artist",
+    "Jack Papel - Lead developer"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "TODO",
+    "sources": "https://github.com/devs-immortal/strawberry"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "TODO",
+  "icon": "assets/strawberry/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.immortaldevs.strawberry.Strawberry"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "strawberry.mixins.json"
   ],
 
   "depends": {
@@ -31,8 +34,5 @@
     "fabric": "*",
     "minecraft": "1.18.x",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
